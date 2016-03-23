@@ -6,7 +6,7 @@ A Clojure library designed to generate Base 62 unique ID.
 ### The Most Recent Release
 
 With Leiningen:
-[![Clojars Project](http://clojars.org/msprunck/clj-base62/latest-version.svg)](http://clojars.org/msprunck/clj-base62)
+[![Clojars Project](http://clojars.org/msprunck/clj-base62/latest-version.svg) ](http://clojars.org/msprunck/clj-base62)
 
 ### Usage
 
