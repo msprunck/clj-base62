@@ -1,5 +1,4 @@
-(ns clj-base62
-  (:require [clojure.string :as string]))
+(ns clj-base62)
 
 (def base62-chars "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz")
 
@@ -7,4 +6,4 @@
   "Generates a base62 unique identifier. n is the string length of the generated id.
   See http://stackoverflow.com/a/9543797"
   [n]
-  (string/join (repeatedly n #(rand-nth base62-chars))))
+  (apply str (repeatedly n #(rand-nth base62-chars))))
